@@ -15,6 +15,8 @@ sudo chmod +x install.sh
 sudo ./install.sh
 ```
 
+![image](https://github.com/gregoryoliveiraa/canoe/assets/55503516/1caf232c-38a8-4c2c-ae95-f3981c474081)
+
 ### API:
 I created a POSTMAN collection to just import and run the endpoints. This collection, named "CANOE", provides a comprehensive set of endpoints related to the management and retrieval of funds, fund managers, and companies. Endpoints included are:
 1. **List Funds:** This fetches a list of funds, with optional query parameters for filtering by fund name and start year.
