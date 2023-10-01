@@ -17,13 +17,13 @@ sudo ./install.sh
 
 ### API:
 I created a POSTMAN collection to just import and run the endpoints. This collection, named "CANOE", provides a comprehensive set of endpoints related to the management and retrieval of funds, fund managers, and companies. Endpoints included are:
-1. List Funds: This fetches a list of funds, with optional query parameters for filtering by fund name and start year.
-2. List FundsManagers: Retrieves a list of all the fund managers in the system.
-3. List Companies: Fetches a comprehensive list of companies.
-3. Show Fund: This is used to get detailed information about a specific fund by providing its unique identifier.
-4. Create Funds: Enables the user to add a new fund to the system by sending the relevant details in the request body.
-5. Modify Funds: Used for updating the information of an existing fund using its unique identifier and sending the new details in the request body.
-6. Dump duplicates: Provides a list of funds that are considered duplicates based on certain criteria. It accepts a query parameter for filtering the results by start year.
+1. **List Funds:** This fetches a list of funds, with optional query parameters for filtering by fund name and start year.
+2. **List FundsManagers:** Retrieves a list of all the fund managers in the system.
+3. **List Companies:** Fetches a comprehensive list of companies.
+3. **Show Fund:** This is used to get detailed information about a specific fund by providing its unique identifier.
+4. **Create Funds:** Enables the user to add a new fund to the system by sending the relevant details in the request body.
+5. **Modify Funds:** Used for updating the information of an existing fund using its unique identifier and sending the new details in the request body.
+6. **Dump duplicates**: Provides a list of funds that are considered duplicates based on certain criteria. It accepts a query parameter for filtering the results by start year.
 
 Each endpoint comes equipped with pre-configured headers, query parameters, and request bodies to facilitate easy testing. For endpoints that require request bodies, sample JSON payloads are provided to illustrate the expected format. Simply import this collection into POSTMAN, set up any required environment variables, and you are ready to start testing the CANOE API.
 
