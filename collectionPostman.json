@@ -1,0 +1,91 @@
+{
+    ...
+    "item": [
+        ...
+        {
+            "name": "Create Fund",
+            "protocolProfileBehavior": {
+                "disabledSystemHeaders": {
+                    "accept": true
+                }
+            },
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"fund\": \"fundName\",\n    \"manager\": \"managerName\",\n    \"year\": \"2000\",\n    \"alias\": [\"alias1Update\", \"alias2Update\", \"alias3Update\"]\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://127.0.0.1/api/funds",
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "path": [
+                        "api",
+                        "funds"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Update Fund",
+            "protocolProfileBehavior": {
+                "disabledSystemHeaders": {
+                    "accept": true
+                }
+            },
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"fund\": \"fundNameUpdate\",\n    \"manager\": \"managerNameUpdate\",\n    \"year\": \"2023\",\n    \"aliases\": [\"alias1Update\", \"alias2Update\", \"alias3Update\"]\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://127.0.0.1/api/funds/{fundId}",
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "path": [
+                        "api",
+                        "funds",
+                        "{fundId}"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
