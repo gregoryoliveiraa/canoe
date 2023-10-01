@@ -27,7 +27,7 @@ I created a POSTMAN collection to just import and run the endpoints. This collec
 
 Each endpoint comes equipped with pre-configured headers, query parameters, and request bodies to facilitate easy testing. For endpoints that require request bodies, sample JSON payloads are provided to illustrate the expected format. Simply import this collection into POSTMAN, set up any required environment variables, and you are ready to start testing the CANOE API.
 
-![collectionPostman](collectionPostman.json)
+![collectionPostman]([collectionPostman.json](https://github.com/gregoryoliveiraa/canoe/blob/main/collectionPostman.json))
 
 ## Scalability considerations:
 As our application continues to evolve, we're committed to ensuring it remains efficient and reliable, even as the data set balloons and the number of simultaneous users surges. Here's how we plan to tackle these challenges:
